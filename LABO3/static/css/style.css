@@ -1,0 +1,32 @@
+h1{
+    color: red;
+    text-decoration-line: underline;
+    font-size: 75%;
+    font-style: oblique;
+}
+
+.paragraphe-blanc{
+    color: white;
+    margin: 25px;
+}
+
+.paragraphe-bleu{
+    color: blue;
+}
+
+.paragraphe-rouge{
+    color: red;
+}
+
+#mon-nom{
+    font-weight: bold ;
+}
+
+#mon-nom:hover{
+    cursor: pointer;
+}
+
+p{
+    font-style: italic ;
+}
+
