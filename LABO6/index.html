@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="laboratoire, inf3190, UQAM">
+	<meta name="description" content="Ce labo nous permettra de manipuler du JS">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="static/css/style.css" rel="stylesheet" type="text/css">
+	<title>Javascript</title>
+</head>
+<header>
+	<nav class="navbar">
+		<div class="brand">
+			<a href="#" class="logo">
+				<img src="static/image/logo.png" alt="logo">
+			</a>
+		</div>
+		<ul class="nav-links">
+			<li class="nav-item">
+				<a href="#">Forum</a>
+			</li>
+			<li class="nav-item">
+				<a href="#">Nouveauté</a>
+			</li>
+			<li class="nav-item">
+				<a href="#">Se connecter</a>
+			</li>
+		</ul>
+	</nav>
+</header>
+<body>
+	<main>
+		<h1 id="titre" onclick="titreEnRouge()">Exercice Javascript</h1>
+		<p id="p1">
+			<strong>Paragraphe 1</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec gravida leo.
+			Quisque in tortor interdum, feugiat lorem quis, consectetur sapien. Nam iaculis blandit diam vitae suscipit.
+			Aenean dapibus diam eget ligula tempor, vel condimentum ante placerat. Duis consequat non odio ut rutrum.
+			Integer condimentum tempus massa eu luctus. Aenean eget tincidunt ipsum. Nullam vel gravida neque, non congue
+			augue. Morbi at sem et sem pretium vulputate.
+		</p>
+		<p id="p2">
+			<strong>Paragraphe 2</strong> Au Japon, le premier terme utilisé pour désigner les œuvres d'animation est senga
+			eiga (film dessiné)5,6, considéré comme un genre particulier du cinéma, et non un art distinct7. Avec la
+			popularisation du manga, le terme manga eiga (漫画映画?) (film de manga) apparaît dans les années 1920 pour
+			désigner une œuvre d'animation scénarisée, tandis que senga eiga devient un terme technique désignant l'aspect
+			graphique.
+		</p>
+		<p id="p3">
+			<strong>Paragraphe 3</strong> Très souvent, ils sont en rapport avec un manga : soit l’anime est basé sur un
+			manga à succès, soit un manga est créé à partir d’un anime populaire. Parfois, les deux sont créés en même
+			temps. D’autres séries, comme Medabots, ou plus récemment Tokyo Demon Campus, s’inspirent de jeux vidéo. Enfin,
+			beaucoup d’anime s’inspirent également de visual novels à succès ; on peut ainsi citer Clannad, Fate/stay night,
+			Ef: A Fairy Tale of the Two et Phantom of Inferno, qui se sont vus adaptés en anime à la suite de leur succès
+			commercial.
+		</p>
+
+		<p>Cliquer sur l'image pour ajouter un paragraphe!</p>
+		<img src="static/image/moi.png" width="256" id="add" onclick="ajoutDunParagraphe()" alt="moi"><br>
+
+		<div class="boutons">
+			<button type="button" onclick="ordre()">Changer d'ordre</button>
+			<button type="button" onclick="changePolice()">Changer de police de caractère</button>
+			<button type="button" onclick="afficheTitre()">Afficher ou cacher le titre</button>
+		</div>
+		<div id="ajout-paragraphe"></div>
+
+	</main>
+</body>
+
+<script src="static/js/script.js"></script>
+</html>
