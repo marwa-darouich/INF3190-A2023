@@ -8,7 +8,7 @@ Ce dépot contient les corrections des labos du groupe 40.
 - Semaine 6: Labo Formulaire (pas de labo)
 - Semaine 7: [Labo6 - Javascript (partie 1)](./LABO6)
 - Semaine 8: [Labo7 - Javascript (partie 2)](./LABO7)
-  Semaine 9: [Labo8 - Python](./LABO8)
+- Semaine 9: [Labo8 - Python](./LABO8)
 - Semaine 10: [Labo9 - Flask (partie 1)](./LABO9)
 - Semaine 11: [Labo10 - Flask (partie 1)](./LABO10)
 - Semaine 12: [Labo11 - Flask (partie 2)](./LABO11)
