@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="laboratoire, inf3190, UQAM">
+	<meta name="description" content="Ce labo nous permettra de manipuler du JS">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="static/css/style.css" rel="stylesheet" type="text/css">
+	<title>Labo JS</title>
+</head>
+	<header>
+		<nav class="navbar">
+			<div class="brand">
+				<a href="#" class="logo">
+					<img src="static/image/logo.jpeg" alt="logo">
+				</a>
+			</div>
+			<ul class="nav-links">
+				<li class="nav-item">
+					<a href="#">Forum</a>
+				</li>
+				<li class="nav-item">
+					<a href="#">Nouveauté</a>
+				</li>
+				<li class="nav-item">
+					<a href="#">Se connecter</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<body>
+	<main>
+		<div class="conteneur-formulaire">
+			<form id="formulaire" action="/submit" method="post">
+				<div class="entete-formulaire">
+					Nom :
+				</div>
+				<div class="container-item-formulaire">
+					<label for="nom"></label>
+					<input type="text" id="nom">
+				</div>
+				<br>
+				<div class="entete-formulaire">
+					Prénom :
+				</div>
+				<div class="container-item-formulaire">
+					<label for="prenom"></label>
+					<input type="text" id="prenom">
+				</div>
+				<br>
+				<div class="entete-formulaire">
+					Date de naissance :
+				</div>
+				<div class="container-item-formulaire">
+					<span id="erreur-date"></span>
+					<label for="date"></label>
+					<input type="text" id="date">
+				</div>
+				<br>
+				<div class="entete-formulaire">
+					Code permanent :
+				</div>
+				<div class="container-item-formulaire">
+					<span id="erreur-code"></span>
+					<label for="code"></label>
+					<input type="text" id="code" placeholder="FFFF11111111">
+				</div>
+				<br>
+				<div class="entete-formulaire">
+					Genre :
+				</div>
+				<div class="container-item-formulaire">
+					<span id="erreur-genre"></span>
+					<label for="genre"></label>
+					<input type="text" id="genre">
+				</div>
+				<span class="erreur-globale"></span>
+				<br>
+			</form>
+			<button onclick="valider()">Soumettre</button>
+		</div>
+	</main>
+	</body>
+<script src="static/js/script.js"></script>
+</html>
