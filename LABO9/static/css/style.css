@@ -1,0 +1,41 @@
+/* Styles pour le lien */
+a {
+    text-decoration: none; /* Supprimer le soulignement du lien */
+    color: #007bff; /* Couleur du texte du lien */
+}
+
+/* Styles pour le message d'erreur */
+p.error {
+    color: red;
+}
+
+/* Styles pour le formulaire */
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="radio"],
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

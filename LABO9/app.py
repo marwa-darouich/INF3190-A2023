@@ -33,7 +33,7 @@ Plusierus routes qui pointes vers la meme opération
 @app.route("/home", methods=["GET", "POST"])
 @app.route("/", methods=["GET", "POST"])
 def home():
-    # Si le client envoie une requete GET, on affiche le formulaire
+   # Si le client envoie une requete GET, on affiche le formulaire
     if request.method == "GET":
         return render_template("home.html")
     # Sinon la méthode est POST, on récupère les informations entrées
